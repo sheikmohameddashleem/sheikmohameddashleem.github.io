@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sheik_Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/f33509bf4b.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div id="header">
+      <div class="container">
+        <nav>
+          <img src="images/Sheik.io-1.png" class="logo" />
+          <ul id="sidemenu">
+            <li>
+              <a href="#header">Home</a>
+              <a href="#about">About</a>
+              <a href="#services">Services</a>
+              <a href="#Portfolio">Portfolio</a>
+              <a href="#contact">Contact</a>
+              <i class="fas fa-times" onclick="closemenu()"></i>
+            </li>
+          </ul>
+          <i class="fas fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+          <p>Java Backend Developer</p>
+          <h1>Hi Im <span>Sheik Mohamed</span> <br />from TamilNadu,India.</h1>
+        </div>
+      </div>
+    </div>
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img src="images/aboutMe.png" alt="" />
+          </div>
+          <div class="about-col-2">
+            <h1 class="sub-title">About Me</h1>
+            <p>
+              I'm Sheik Mohamed Dashleem, a Java backend developer with
+              expertise in Java and Spring. I'm passionate about building robust
+              web applications that deliver seamless user experiences. With a
+              strong foundation in HTML, CSS, and JavaScript, I bring a holistic
+              approach to my development projects. As a lifelong learner, I'm
+              constantly exploring new tools and technologies to stay at the
+              forefront of web development. Let's collaborate and create
+              exceptional web solutions together.
+            </p>
+
+            <div class="tab-titles">
+              <p class="tab-links active-link" onclick="opentab('skills')">
+                Skills
+              </p>
+              <p class="tab-links" onclick="opentab('education')">Education</p>
+            </div>
+            <div class="tab-contents active-tab" id="skills">
+              <ul>
+                <li>
+                  <span>Java</span><br />Proficient in Java for backend
+                  development.
+                </li>
+                <li>
+                  <span>Spring</span> <br />Familiarity with the Spring
+                  framework.
+                </li>
+                <li>
+                  <span>MySQL</span><br />Proficient in MySQL database
+                  management.
+                </li>
+                <li>
+                  <span>Data Structures and Algorithms</span><br />Strong
+                  understanding and application of data structures and
+                  algorithms.
+                </li>
+                <li>
+                  <span>Problem Solving</span><br />
+                  Strong analytical and problem-solving skills.
+                </li>
+                <li>
+                  <span>Collaboration</span><br />Strong teamwork and
+                  communication abilities.
+                </li>
+                <li>
+                  <span>Lifelong Learning</span><br />Proactively staying
+                  up-to-date with the latest web development trends.
+                </li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="education">
+              <ul>
+                <li>
+                  <span>2022 - 2023 </span><br />FullStack Web-Development
+                  Program at Masai Bangalore.
+                </li>
+                <li>
+                  <span>2017 - 2021 </span><br />B.Tech-Textile Technology at
+                  Anna University Chennai.
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="services">
+      <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+          <div>
+            <i class="fa-solid fa-code"></i>
+            <h2>Backend Development</h2>
+            <p>
+              Utilizing my expertise in Java, Hibernate, MySQL, and Spring, I
+              specialize in building robust and scalable backend systems for web
+              applications. I focus on creating efficient and reliable solutions
+              that handle complex data processing and integrate seamlessly with
+              databases.
+            </p>
+            <a href="#">Learn More</a>
+          </div>
+          <div>
+            <i class="fa-brands fa-connectdevelop"></i>
+            <h2>API Development</h2>
+            <p>
+              Designing and implementing RESTful APIs using Java frameworks like
+              Spring, I enable seamless communication between frontend and
+              backend components. I prioritize API security, performance
+              optimization, and adherence to industry standards to ensure smooth
+              data exchange and interaction.
+            </p>
+            <a href="#">Learn More</a>
+          </div>
+          <div>
+            <i class="fa-solid fa-bug"></i>
+            <h2>Troubleshooting and Bug Fixing</h2>
+            <p>
+              Employing strong problem-solving skills, I identify and resolve
+              issues in backend functionality, performance, and data integrity.
+              Through thorough debugging and testing, I ensure that the backend
+              systems operate smoothly and provide an optimal user experience.
+            </p>
+            <a href="#">Learn More</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="Portfolio">
+      <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+          <div class="work">
+            <img src="images/BatchWatch-logos.jpeg" />
+            <div class="layer">
+              <h3>BatchWatch</h3>
+              <p>
+                BatchWatch is a Our Batch Monitoring System is a user-friendly
+                software solution for education organizations. With easy CRUD
+                operations, administrators can efficiently manage batches. It
+                utilizes Core Java and serialization-based file storage. With
+                comprehensive reporting and analytics, educators make
+                data-driven decisions to improve outcomes. <br />
+                <span>Tech Stack </span>CoreJava, Serialization-based file
+                storage.
+              </p>
+              <a href="#"><i class="fa-brands fa-github"></i></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="images/SparkFlow-1 (1).png" />
+            <div class="layer">
+              <h3>SparkFlow</h3>
+              <p>
+                Spark Flow is a feature-rich CRM software catering to customer
+                support representatives, customers, and admins. It facilitates
+                user validations, CRUD operations, ticketing, issue resolution,
+                and feedback management. <span>Powered by</span> MySQL,
+                Hibernate ORM, and Core Java, it ensures seamless and efficient
+                customer relationship management. Experience a streamlined CRM
+                experience with Spark Flow's comprehensive features and robust
+                technology stack.
+              </p>
+
+              <a href="#"><i class="fa-brands fa-github"></i></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="images/BatchWatch-logos.jpeg" />
+            <div class="layer">
+              <h3>BatchWatch</h3>
+              <p>
+                BatchWatch is a Our Batch Monitoring System is a user-friendly
+                software solution for education organizations. With easy CRUD
+                operations, administrators can efficiently manage batches. It
+                utilizes Core Java and serialization-based file storage. With
+                comprehensive reporting and analytics, educators make
+                data-driven decisions to improve outcomes. <br />
+                <span>Tech Stack </span>CoreJava, Serialization-based file
+                storage.
+              </p>
+              <a href="#"><i class="fa-brands fa-github"></i></a>
+            </div>
+          </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+      </div>
+    </div>
+
+    <div id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="contact-left">
+            <h1 class="sub-title">Contact Me</h1>
+            <p>
+              <i class="fa-sharp fa-solid fa-paper-plane"></i
+              >sheikdashleem@gmail.com
+            </p>
+            <p><i class="fa-solid fa-phone-square-alt"></i>+91 9080427174</p>
+            <div class="social-icons">
+              <a href="https://github.com/sheikmohameddashleem"
+                ><i class="fa-brands fa-github"></i
+              ></a>
+              <a
+                href="https://www.linkedin.com/in/sheik-mohamed-dashleem-222016252/"
+                ><i class="fa-brands fa-linkedin"></i
+              ></a>
+            </div>
+            <a
+              href="images/SheikMohamed-Dasleem-Resume.pdf"
+              download
+              class="btn btn2"
+              >Download Resume</a
+            >
+          </div>
+          <div class="contact-right">
+            <form name="submit-to-google-sheet">
+              <input type="text" name="Name" placeholder="Your Name" required />
+              <input
+                type="email"
+                name="Email"
+                placeholder="Your Email"
+                requiMered
+              />
+              <textarea
+                name="Message"
+                rows="6"
+                placeholder="Your Message"
+              ></textarea>
+              <button type="submit" class="btn btn2">Submit</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname) {
+      for (tablink of tablinks) {
+        tablink.classList.remove("active-link");
+      }
+      for (tabcontent of tabcontents) {
+        tabcontent.classList.remove("active-tab");
+      }
+      event.currentTarget.classList.add("active-link");
+      document.getElementById(tabname).classList.add("active-tab");
+    }
+  </script>
+  <script>
+    var sidemenu = document.getElementById("sidemenu");
+    function openmenu() {
+      sidemenu.style.right = "0";
+    }
+    function closemenu() {
+      sidemenu.style.right = "-200px";
+    }
+  </script>
+
+  <script>
+    const scriptURL =
+      "https://script.google.com/macros/s/AKfycbymXCTPmjFoR4JJxrEKs3KSZIJnCNItlNOCgwINU9hePf_NRKPhUnwD5JBQMacMbyHI/exec";
+    const form = document.forms["submit-to-google-sheet"];
+
+    form.addEventListener("submit", (e) => {
+      e.preventDefault();
+      fetch(scriptURL, { method: "POST", body: new FormData(form) })
+        .then((response) => console.log("Success!", response))
+        .catch((error) => console.error("Error!", error.message));
+    });
+  </script>
+</html>
